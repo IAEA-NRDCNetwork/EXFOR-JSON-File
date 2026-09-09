@@ -1,0 +1,4171 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-09-09T12:03:43+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "K2832",
+        "N2": 20260831,
+        "alteration_flag": " ",
+        "transmission_identification": "K025"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "K2832001",
+            "N2": 20260831,
+            "alteration_flag": " ",
+            "transmission_identification": "K025"
+          },
+          "BIB": {
+            "N1": 12,
+            "N2": 0
+          },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Photoneutron reactions on 159Tb in the giant dipole",
+                "resonance region: Reaction cross sections and average",
+                "kinetic energies of (g,xn) photoneutrons"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "I.Gheorghe",
+                "S.Goriely",
+                "K.Stopani",
+                "S.Belyshev",
+                "G.Fan",
+                "L.Liu",
+                "M.Krzysiek",
+                "D.Filipescu",
+                "T.Ari-izumi",
+                "S.Miyamoto",
+                "H.Utsunomiya"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "3RUMBUC",
+                "2BLGBRU",
+                "4RUSMOS",
+                "3CPRARI",
+                "3POLIFJ",
+                "2JPNKON",
+                "2JPNHIT",
+                "2JPNOSA"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,PR/C,113,044620,2026",
+                "code_unit": [
+                  {
+                    "unit": "J,PR/C,113,044620,2026",
+                    "doi": "10.1103/79bt-cxcv",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "PR/C",
+                        "number": null,
+                        "volume": "113",
+                        "part": null,
+                        "issue": null,
+                        "page": "044620"
+                      },
+                      "date": 2026
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INC-SOURCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "incident_source": [
+                  "LCS"
+                ],
+                "reaction": null
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "- Chemical-form of target is element.",
+                "- Physical-form of target is solid.",
+                "- Target-thickness is 3440,6740 mg/cm2."
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "RINGR"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "SRING"
+                ],
+                "institute": "2JPNHIT"
+              },
+              "free_text": [
+                " NewSUBARU"
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "UNFLD"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "NAICR"
+              ],
+              "free_text": [
+                " NaI(Tl) detector"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                "LABR3"
+              ],
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                "PROPC"
+              ],
+              "free_text": [
+                " 3He counters"
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-1",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " incident flux"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-2",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " neutron detection"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-3",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " target thickness"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260713,
+                "history": "C"
+              },
+              "free_text": [
+                " MA"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 3,
+            "N2": 0,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "ERR-1",
+              "ERR-2",
+              "ERR-3"
+            ],
+            "unit": [
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT"
+            ],
+            "value": [
+              3.0,
+              3.0,
+              0.5
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "K2832002",
+            "N2": 20260831,
+            "alteration_flag": " ",
+            "transmission_identification": "K025"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "65-TB-159(G,X)0-NN-1,NUM,SIG",
+                "code_unit": [
+                  {
+                    "unit": "65-TB-159(G,X)0-NN-1,NUM,SIG",
+                    "field": {
+                      "reaction": "65-TB-159(G,X)0-NN-1",
+                      "target": "65-TB-159",
+                      "projectile": "G",
+                      "process": "X",
+                      "product": "0-NN-1",
+                      "quantity": "NUM,SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": "NUM,SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Total uncertainty"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "I.Gheorghe+",
+                "reference": {
+                  "code": "J,PR/C,113,044620,2026",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "113",
+                      "part": null,
+                      "issue": null,
+                      "page": "044620"
+                    },
+                    "date": 2026
+                  }
+                }
+              },
+              "free_text": [
+                " Fig. 3 and",
+                " Supplemental Material"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "PART-OUT"
+            ],
+            "unit": [
+              "NO-DIM"
+            ],
+            "value": [
+              1.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 83,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                8.25,
+                6.81,
+                0.87
+              ],
+              [
+                8.37,
+                11.92,
+                1.2
+              ],
+              [
+                8.52,
+                18.32,
+                1.35
+              ],
+              [
+                8.76,
+                27.43,
+                1.45
+              ],
+              [
+                8.81,
+                28.93,
+                1.48
+              ],
+              [
+                9.01,
+                34.07,
+                1.62
+              ],
+              [
+                9.27,
+                40.75,
+                1.91
+              ],
+              [
+                9.37,
+                44.1,
+                2.06
+              ],
+              [
+                9.5,
+                48.57,
+                2.24
+              ],
+              [
+                9.76,
+                58.17,
+                2.63
+              ],
+              [
+                10.02,
+                69.68,
+                3.09
+              ],
+              [
+                10.26,
+                83.15,
+                3.65
+              ],
+              [
+                10.5,
+                100.1,
+                4.32
+              ],
+              [
+                10.78,
+                124.12,
+                5.28
+              ],
+              [
+                11.02,
+                149.21,
+                6.34
+              ],
+              [
+                11.27,
+                177.41,
+                7.57
+              ],
+              [
+                11.53,
+                208.17,
+                8.91
+              ],
+              [
+                11.76,
+                234.95,
+                10.08
+              ],
+              [
+                12.01,
+                260.63,
+                11.19
+              ],
+              [
+                12.28,
+                275.5,
+                11.82
+              ],
+              [
+                12.51,
+                277.69,
+                11.9
+              ],
+              [
+                12.77,
+                271.42,
+                11.63
+              ],
+              [
+                13.01,
+                261.16,
+                11.2
+              ],
+              [
+                13.25,
+                250.93,
+                10.76
+              ],
+              [
+                13.53,
+                242.23,
+                10.41
+              ],
+              [
+                13.77,
+                238.82,
+                10.29
+              ],
+              [
+                13.89,
+                238.79,
+                10.31
+              ],
+              [
+                14.01,
+                239.89,
+                10.37
+              ],
+              [
+                14.26,
+                245.81,
+                10.67
+              ],
+              [
+                14.37,
+                249.97,
+                10.89
+              ],
+              [
+                14.51,
+                255.67,
+                11.19
+              ],
+              [
+                14.6,
+                259.29,
+                11.39
+              ],
+              [
+                14.78,
+                266.17,
+                11.76
+              ],
+              [
+                14.87,
+                269.12,
+                11.91
+              ],
+              [
+                14.92,
+                270.61,
+                11.98
+              ],
+              [
+                15.1,
+                274.59,
+                12.17
+              ],
+              [
+                15.37,
+                275.37,
+                12.22
+              ],
+              [
+                15.6,
+                268.29,
+                11.96
+              ],
+              [
+                15.83,
+                253.5,
+                11.4
+              ],
+              [
+                16.07,
+                232.65,
+                10.59
+              ],
+              [
+                16.35,
+                203.23,
+                9.43
+              ],
+              [
+                16.59,
+                177.89,
+                8.42
+              ],
+              [
+                16.83,
+                153.08,
+                7.45
+              ],
+              [
+                17.07,
+                129.5,
+                6.57
+              ],
+              [
+                17.31,
+                108.48,
+                5.86
+              ],
+              [
+                17.8,
+                76.97,
+                5.22
+              ],
+              [
+                18.3,
+                56.22,
+                5.13
+              ],
+              [
+                18.8,
+                40.37,
+                4.53
+              ],
+              [
+                19.26,
+                27.82,
+                4.33
+              ],
+              [
+                19.78,
+                18.79,
+                4.73
+              ],
+              [
+                20.25,
+                15.97,
+                4.72
+              ],
+              [
+                20.72,
+                14.87,
+                4.12
+              ],
+              [
+                21.26,
+                12.51,
+                3.74
+              ],
+              [
+                21.74,
+                10.93,
+                3.72
+              ],
+              [
+                22.24,
+                10.48,
+                3.66
+              ],
+              [
+                22.73,
+                10.14,
+                3.44
+              ],
+              [
+                23.18,
+                10.2,
+                3.05
+              ],
+              [
+                23.68,
+                10.84,
+                2.52
+              ],
+              [
+                24.19,
+                10.96,
+                2.06
+              ],
+              [
+                24.65,
+                9.97,
+                1.83
+              ],
+              [
+                25.17,
+                8.18,
+                1.66
+              ],
+              [
+                25.64,
+                6.71,
+                1.47
+              ],
+              [
+                26.11,
+                5.68,
+                1.24
+              ],
+              [
+                26.64,
+                5.16,
+                1.03
+              ],
+              [
+                27.12,
+                5.35,
+                0.93
+              ],
+              [
+                27.6,
+                5.78,
+                0.86
+              ],
+              [
+                28.08,
+                5.91,
+                0.76
+              ],
+              [
+                28.57,
+                5.61,
+                0.66
+              ],
+              [
+                29.06,
+                5.02,
+                0.65
+              ],
+              [
+                29.61,
+                4.33,
+                0.84
+              ],
+              [
+                30.54,
+                3.98,
+                1.47
+              ],
+              [
+                31.54,
+                4.17,
+                1.97
+              ],
+              [
+                32.49,
+                4.08,
+                1.8
+              ],
+              [
+                33.34,
+                3.83,
+                1.65
+              ],
+              [
+                34.44,
+                3.62,
+                1.99
+              ],
+              [
+                35.45,
+                3.62,
+                2.18
+              ],
+              [
+                36.4,
+                4.1,
+                2.15
+              ],
+              [
+                37.38,
+                4.89,
+                2.07
+              ],
+              [
+                38.3,
+                5.34,
+                1.96
+              ],
+              [
+                39.32,
+                5.34,
+                1.89
+              ],
+              [
+                40.27,
+                5.38,
+                1.87
+              ],
+              [
+                41.24,
+                5.29,
+                1.81
+              ],
+              [
+                42.23,
+                4.9,
+                1.67
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "K2832003",
+            "N2": 20260831,
+            "alteration_flag": " ",
+            "transmission_identification": "K025"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "65-TB-159(G,X)0-NN-1,NUM,SIG",
+                "code_unit": [
+                  {
+                    "unit": "65-TB-159(G,X)0-NN-1,NUM,SIG",
+                    "field": {
+                      "reaction": "65-TB-159(G,X)0-NN-1",
+                      "target": "65-TB-159",
+                      "projectile": "G",
+                      "process": "X",
+                      "product": "0-NN-1",
+                      "quantity": "NUM,SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": "NUM,SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Total uncertainty"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "I.Gheorghe+",
+                "reference": {
+                  "code": "J,PR/C,113,044620,2026",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "113",
+                      "part": null,
+                      "issue": null,
+                      "page": "044620"
+                    },
+                    "date": 2026
+                  }
+                }
+              },
+              "free_text": [
+                " Fig. 3 and",
+                " Supplemental Material"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "PART-OUT"
+            ],
+            "unit": [
+              "NO-DIM"
+            ],
+            "value": [
+              2.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 49,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                14.92,
+                4.29,
+                0.5
+              ],
+              [
+                15.1,
+                8.52,
+                0.96
+              ],
+              [
+                15.37,
+                19.29,
+                1.88
+              ],
+              [
+                15.6,
+                32.58,
+                2.76
+              ],
+              [
+                15.83,
+                48.92,
+                3.71
+              ],
+              [
+                16.07,
+                66.5,
+                4.71
+              ],
+              [
+                16.35,
+                86.66,
+                5.87
+              ],
+              [
+                16.59,
+                101.1,
+                6.76
+              ],
+              [
+                16.83,
+                112.5,
+                7.58
+              ],
+              [
+                17.07,
+                120.36,
+                8.28
+              ],
+              [
+                17.31,
+                124.5,
+                8.74
+              ],
+              [
+                17.8,
+                122.88,
+                9.0
+              ],
+              [
+                18.3,
+                112.63,
+                8.51
+              ],
+              [
+                18.8,
+                100.64,
+                6.9
+              ],
+              [
+                19.26,
+                92.23,
+                5.95
+              ],
+              [
+                19.78,
+                83.92,
+                5.8
+              ],
+              [
+                20.25,
+                75.84,
+                5.53
+              ],
+              [
+                20.72,
+                68.8,
+                4.76
+              ],
+              [
+                21.26,
+                62.77,
+                4.1
+              ],
+              [
+                21.74,
+                57.71,
+                3.82
+              ],
+              [
+                22.24,
+                53.52,
+                3.64
+              ],
+              [
+                22.73,
+                50.67,
+                3.49
+              ],
+              [
+                23.18,
+                48.21,
+                3.32
+              ],
+              [
+                23.68,
+                44.84,
+                3.04
+              ],
+              [
+                24.19,
+                41.27,
+                2.71
+              ],
+              [
+                24.65,
+                38.51,
+                2.46
+              ],
+              [
+                25.17,
+                35.66,
+                2.19
+              ],
+              [
+                25.64,
+                32.77,
+                1.92
+              ],
+              [
+                26.11,
+                29.44,
+                1.6
+              ],
+              [
+                26.64,
+                25.54,
+                1.23
+              ],
+              [
+                27.12,
+                22.08,
+                0.97
+              ],
+              [
+                27.6,
+                18.7,
+                0.77
+              ],
+              [
+                28.08,
+                15.57,
+                0.65
+              ],
+              [
+                28.57,
+                12.78,
+                0.57
+              ],
+              [
+                29.06,
+                10.49,
+                0.56
+              ],
+              [
+                29.61,
+                8.62,
+                0.64
+              ],
+              [
+                30.54,
+                6.56,
+                0.9
+              ],
+              [
+                31.54,
+                5.62,
+                1.26
+              ],
+              [
+                32.49,
+                5.89,
+                1.68
+              ],
+              [
+                33.34,
+                6.09,
+                1.77
+              ],
+              [
+                34.44,
+                5.68,
+                1.25
+              ],
+              [
+                35.45,
+                5.45,
+                0.92
+              ],
+              [
+                36.4,
+                5.29,
+                0.96
+              ],
+              [
+                37.38,
+                4.8,
+                1.19
+              ],
+              [
+                38.3,
+                4.07,
+                1.49
+              ],
+              [
+                39.32,
+                3.58,
+                1.72
+              ],
+              [
+                40.27,
+                3.91,
+                1.68
+              ],
+              [
+                41.24,
+                4.91,
+                1.53
+              ],
+              [
+                42.23,
+                5.89,
+                1.43
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "K2832004",
+            "N2": 20260831,
+            "alteration_flag": " ",
+            "transmission_identification": "K025"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "65-TB-159(G,X)0-NN-1,NUM,SIG",
+                "code_unit": [
+                  {
+                    "unit": "65-TB-159(G,X)0-NN-1,NUM,SIG",
+                    "field": {
+                      "reaction": "65-TB-159(G,X)0-NN-1",
+                      "target": "65-TB-159",
+                      "projectile": "G",
+                      "process": "X",
+                      "product": "0-NN-1",
+                      "quantity": "NUM,SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": "NUM,SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Total uncertainty"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "I.Gheorghe+",
+                "reference": {
+                  "code": "J,PR/C,113,044620,2026",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "113",
+                      "part": null,
+                      "issue": null,
+                      "page": "044620"
+                    },
+                    "date": 2026
+                  }
+                }
+              },
+              "free_text": [
+                " Fig. 3 and",
+                " Supplemental Material"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "PART-OUT"
+            ],
+            "unit": [
+              "NO-DIM"
+            ],
+            "value": [
+              3.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 26,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                23.68,
+                0.29,
+                0.24
+              ],
+              [
+                24.19,
+                0.71,
+                0.44
+              ],
+              [
+                24.65,
+                1.34,
+                0.58
+              ],
+              [
+                25.17,
+                2.55,
+                0.74
+              ],
+              [
+                25.64,
+                4.14,
+                0.88
+              ],
+              [
+                26.11,
+                6.06,
+                1.02
+              ],
+              [
+                26.64,
+                8.37,
+                1.2
+              ],
+              [
+                27.12,
+                10.44,
+                1.37
+              ],
+              [
+                27.6,
+                12.48,
+                1.51
+              ],
+              [
+                28.08,
+                14.35,
+                1.61
+              ],
+              [
+                28.57,
+                15.92,
+                1.69
+              ],
+              [
+                29.06,
+                17.08,
+                1.77
+              ],
+              [
+                29.61,
+                17.88,
+                1.82
+              ],
+              [
+                30.54,
+                18.31,
+                1.82
+              ],
+              [
+                31.54,
+                17.79,
+                1.95
+              ],
+              [
+                32.49,
+                16.45,
+                2.28
+              ],
+              [
+                33.34,
+                15.0,
+                2.29
+              ],
+              [
+                34.44,
+                13.29,
+                1.48
+              ],
+              [
+                35.45,
+                11.79,
+                0.91
+              ],
+              [
+                36.4,
+                10.6,
+                0.87
+              ],
+              [
+                37.38,
+                9.67,
+                0.98
+              ],
+              [
+                38.3,
+                8.67,
+                1.13
+              ],
+              [
+                39.32,
+                7.12,
+                1.25
+              ],
+              [
+                40.27,
+                5.42,
+                1.21
+              ],
+              [
+                41.24,
+                4.03,
+                1.18
+              ],
+              [
+                42.23,
+                3.38,
+                1.24
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "K2832005",
+            "N2": 20260831,
+            "alteration_flag": " ",
+            "transmission_identification": "K025"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "65-TB-159(G,X)0-NN-1,NUM,SIG",
+                "code_unit": [
+                  {
+                    "unit": "65-TB-159(G,X)0-NN-1,NUM,SIG",
+                    "field": {
+                      "reaction": "65-TB-159(G,X)0-NN-1",
+                      "target": "65-TB-159",
+                      "projectile": "G",
+                      "process": "X",
+                      "product": "0-NN-1",
+                      "quantity": "NUM,SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": "NUM,SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Total uncertainty"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "I.Gheorghe+",
+                "reference": {
+                  "code": "J,PR/C,113,044620,2026",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "113",
+                      "part": null,
+                      "issue": null,
+                      "page": "044620"
+                    },
+                    "date": 2026
+                  }
+                }
+              },
+              "free_text": [
+                " Fig. 3 and",
+                " Supplemental Material"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "PART-OUT"
+            ],
+            "unit": [
+              "NO-DIM"
+            ],
+            "value": [
+              4.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 12,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                31.54,
+                0.13,
+                0.15
+              ],
+              [
+                32.49,
+                0.41,
+                0.3
+              ],
+              [
+                33.34,
+                0.91,
+                0.51
+              ],
+              [
+                34.44,
+                1.95,
+                0.77
+              ],
+              [
+                35.45,
+                2.99,
+                0.9
+              ],
+              [
+                36.4,
+                3.83,
+                1.0
+              ],
+              [
+                37.38,
+                4.61,
+                1.16
+              ],
+              [
+                38.3,
+                5.47,
+                1.39
+              ],
+              [
+                39.32,
+                6.56,
+                1.54
+              ],
+              [
+                40.27,
+                7.39,
+                1.4
+              ],
+              [
+                41.24,
+                7.64,
+                1.21
+              ],
+              [
+                42.23,
+                7.4,
+                1.13
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "K2832006",
+            "N2": 20260831,
+            "alteration_flag": " ",
+            "transmission_identification": "K025"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "65-TB-159(G,X)0-NN-1,UNW,SIG",
+                "code_unit": [
+                  {
+                    "unit": "65-TB-159(G,X)0-NN-1,UNW,SIG",
+                    "field": {
+                      "reaction": "65-TB-159(G,X)0-NN-1",
+                      "target": "65-TB-159",
+                      "projectile": "G",
+                      "process": "X",
+                      "product": "0-NN-1",
+                      "quantity": "UNW,SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": "UNW,SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                "The sum of (g,n) + (g,2n) + (g,3n) + (g,4n)"
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Total uncertainty"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "I.Gheorghe+",
+                "reference": {
+                  "code": "J,PR/C,113,044620,2026",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "113",
+                      "part": null,
+                      "issue": null,
+                      "page": "044620"
+                    },
+                    "date": 2026
+                  }
+                }
+              },
+              "free_text": [
+                " Fig. 7 and",
+                " Supplemental Material"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 83,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                8.25,
+                6.81,
+                0.87
+              ],
+              [
+                8.37,
+                11.92,
+                1.2
+              ],
+              [
+                8.52,
+                18.32,
+                1.35
+              ],
+              [
+                8.76,
+                27.43,
+                1.45
+              ],
+              [
+                8.81,
+                28.93,
+                1.48
+              ],
+              [
+                9.01,
+                34.07,
+                1.62
+              ],
+              [
+                9.27,
+                40.75,
+                1.91
+              ],
+              [
+                9.37,
+                44.1,
+                2.06
+              ],
+              [
+                9.5,
+                48.57,
+                2.24
+              ],
+              [
+                9.76,
+                58.17,
+                2.63
+              ],
+              [
+                10.02,
+                69.68,
+                3.09
+              ],
+              [
+                10.26,
+                83.15,
+                3.65
+              ],
+              [
+                10.5,
+                100.1,
+                4.32
+              ],
+              [
+                10.78,
+                124.12,
+                5.28
+              ],
+              [
+                11.02,
+                149.21,
+                6.34
+              ],
+              [
+                11.27,
+                177.41,
+                7.57
+              ],
+              [
+                11.53,
+                208.17,
+                8.91
+              ],
+              [
+                11.76,
+                234.95,
+                10.08
+              ],
+              [
+                12.01,
+                260.63,
+                11.19
+              ],
+              [
+                12.28,
+                275.5,
+                11.82
+              ],
+              [
+                12.51,
+                277.69,
+                11.9
+              ],
+              [
+                12.77,
+                271.42,
+                11.63
+              ],
+              [
+                13.01,
+                261.16,
+                11.2
+              ],
+              [
+                13.25,
+                250.93,
+                10.76
+              ],
+              [
+                13.53,
+                242.23,
+                10.41
+              ],
+              [
+                13.77,
+                238.82,
+                10.29
+              ],
+              [
+                13.89,
+                238.79,
+                10.31
+              ],
+              [
+                14.01,
+                239.89,
+                10.37
+              ],
+              [
+                14.26,
+                245.81,
+                10.67
+              ],
+              [
+                14.37,
+                249.97,
+                10.89
+              ],
+              [
+                14.51,
+                255.67,
+                11.19
+              ],
+              [
+                14.6,
+                259.29,
+                11.39
+              ],
+              [
+                14.78,
+                266.17,
+                11.76
+              ],
+              [
+                14.87,
+                269.12,
+                11.91
+              ],
+              [
+                14.92,
+                274.9,
+                12.08
+              ],
+              [
+                15.1,
+                283.11,
+                12.38
+              ],
+              [
+                15.37,
+                294.66,
+                12.75
+              ],
+              [
+                15.6,
+                300.87,
+                12.92
+              ],
+              [
+                15.83,
+                302.41,
+                12.91
+              ],
+              [
+                16.07,
+                299.15,
+                12.77
+              ],
+              [
+                16.35,
+                289.89,
+                12.49
+              ],
+              [
+                16.59,
+                279.0,
+                12.24
+              ],
+              [
+                16.83,
+                265.59,
+                12.03
+              ],
+              [
+                17.07,
+                249.85,
+                11.86
+              ],
+              [
+                17.31,
+                232.97,
+                11.65
+              ],
+              [
+                17.8,
+                199.85,
+                11.21
+              ],
+              [
+                18.3,
+                168.85,
+                10.51
+              ],
+              [
+                18.8,
+                141.0,
+                8.7
+              ],
+              [
+                19.26,
+                120.06,
+                7.67
+              ],
+              [
+                19.78,
+                102.71,
+                7.68
+              ],
+              [
+                20.25,
+                91.81,
+                7.42
+              ],
+              [
+                20.72,
+                83.66,
+                6.44
+              ],
+              [
+                21.26,
+                75.27,
+                5.68
+              ],
+              [
+                21.74,
+                68.64,
+                5.44
+              ],
+              [
+                22.24,
+                64.0,
+                5.26
+              ],
+              [
+                22.73,
+                60.81,
+                5.0
+              ],
+              [
+                23.18,
+                58.4,
+                4.61
+              ],
+              [
+                23.68,
+                55.96,
+                4.07
+              ],
+              [
+                24.19,
+                52.94,
+                3.56
+              ],
+              [
+                24.65,
+                49.83,
+                3.25
+              ],
+              [
+                25.17,
+                46.4,
+                2.97
+              ],
+              [
+                25.64,
+                43.62,
+                2.71
+              ],
+              [
+                26.11,
+                41.18,
+                2.42
+              ],
+              [
+                26.64,
+                39.07,
+                2.18
+              ],
+              [
+                27.12,
+                37.87,
+                2.1
+              ],
+              [
+                27.6,
+                36.96,
+                2.09
+              ],
+              [
+                28.08,
+                35.83,
+                2.08
+              ],
+              [
+                28.57,
+                34.31,
+                2.07
+              ],
+              [
+                29.06,
+                32.59,
+                2.11
+              ],
+              [
+                29.61,
+                30.83,
+                2.22
+              ],
+              [
+                30.54,
+                28.84,
+                2.59
+              ],
+              [
+                31.54,
+                27.7,
+                3.11
+              ],
+              [
+                32.49,
+                26.83,
+                3.42
+              ],
+              [
+                33.34,
+                25.84,
+                3.42
+              ],
+              [
+                34.44,
+                24.54,
+                2.94
+              ],
+              [
+                35.45,
+                23.85,
+                2.75
+              ],
+              [
+                36.4,
+                23.82,
+                2.77
+              ],
+              [
+                37.38,
+                23.97,
+                2.9
+              ],
+              [
+                38.3,
+                23.55,
+                3.11
+              ],
+              [
+                39.32,
+                22.59,
+                3.29
+              ],
+              [
+                40.27,
+                22.09,
+                3.17
+              ],
+              [
+                41.24,
+                21.86,
+                2.97
+              ],
+              [
+                42.23,
+                21.58,
+                2.82
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "K2832007",
+            "N2": 20260831,
+            "alteration_flag": " ",
+            "transmission_identification": "K025"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "65-TB-159(G,X)0-NN-1,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "65-TB-159(G,X)0-NN-1,,SIG",
+                    "field": {
+                      "reaction": "65-TB-159(G,X)0-NN-1",
+                      "target": "65-TB-159",
+                      "projectile": "G",
+                      "process": "X",
+                      "product": "0-NN-1",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Total uncertainty"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "I.Gheorghe+",
+                "reference": {
+                  "code": "J,PR/C,113,044620,2026",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "113",
+                      "part": null,
+                      "issue": null,
+                      "page": "044620"
+                    },
+                    "date": 2026
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Supplemental Material"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 83,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                8.25,
+                6.81,
+                0.87
+              ],
+              [
+                8.37,
+                11.92,
+                1.2
+              ],
+              [
+                8.52,
+                18.32,
+                1.35
+              ],
+              [
+                8.76,
+                27.43,
+                1.45
+              ],
+              [
+                8.81,
+                28.93,
+                1.48
+              ],
+              [
+                9.01,
+                34.07,
+                1.62
+              ],
+              [
+                9.27,
+                40.75,
+                1.91
+              ],
+              [
+                9.37,
+                44.1,
+                2.06
+              ],
+              [
+                9.5,
+                48.57,
+                2.24
+              ],
+              [
+                9.76,
+                58.17,
+                2.63
+              ],
+              [
+                10.02,
+                69.68,
+                3.09
+              ],
+              [
+                10.26,
+                83.15,
+                3.65
+              ],
+              [
+                10.5,
+                100.1,
+                4.32
+              ],
+              [
+                10.78,
+                124.12,
+                5.28
+              ],
+              [
+                11.02,
+                149.21,
+                6.34
+              ],
+              [
+                11.27,
+                177.41,
+                7.57
+              ],
+              [
+                11.53,
+                208.17,
+                8.91
+              ],
+              [
+                11.76,
+                234.95,
+                10.08
+              ],
+              [
+                12.01,
+                260.63,
+                11.19
+              ],
+              [
+                12.28,
+                275.5,
+                11.82
+              ],
+              [
+                12.51,
+                277.69,
+                11.9
+              ],
+              [
+                12.77,
+                271.42,
+                11.63
+              ],
+              [
+                13.01,
+                261.16,
+                11.2
+              ],
+              [
+                13.25,
+                250.93,
+                10.76
+              ],
+              [
+                13.53,
+                242.23,
+                10.41
+              ],
+              [
+                13.77,
+                238.82,
+                10.29
+              ],
+              [
+                13.89,
+                238.79,
+                10.31
+              ],
+              [
+                14.01,
+                239.89,
+                10.37
+              ],
+              [
+                14.26,
+                245.81,
+                10.67
+              ],
+              [
+                14.37,
+                249.97,
+                10.89
+              ],
+              [
+                14.51,
+                255.67,
+                11.19
+              ],
+              [
+                14.6,
+                259.29,
+                11.39
+              ],
+              [
+                14.78,
+                266.17,
+                11.76
+              ],
+              [
+                14.87,
+                269.12,
+                11.91
+              ],
+              [
+                14.92,
+                279.19,
+                12.2
+              ],
+              [
+                15.1,
+                291.62,
+                12.67
+              ],
+              [
+                15.37,
+                313.95,
+                13.53
+              ],
+              [
+                15.6,
+                333.46,
+                14.35
+              ],
+              [
+                15.83,
+                351.33,
+                15.2
+              ],
+              [
+                16.07,
+                365.65,
+                16.07
+              ],
+              [
+                16.35,
+                376.55,
+                17.09
+              ],
+              [
+                16.59,
+                380.1,
+                17.9
+              ],
+              [
+                16.83,
+                378.09,
+                18.68
+              ],
+              [
+                17.07,
+                370.21,
+                19.37
+              ],
+              [
+                17.31,
+                357.47,
+                19.74
+              ],
+              [
+                17.8,
+                322.73,
+                19.65
+              ],
+              [
+                18.3,
+                281.49,
+                18.42
+              ],
+              [
+                18.8,
+                241.64,
+                15.03
+              ],
+              [
+                19.26,
+                212.29,
+                13.03
+              ],
+              [
+                19.78,
+                186.63,
+                12.76
+              ],
+              [
+                20.25,
+                167.65,
+                12.21
+              ],
+              [
+                20.72,
+                152.46,
+                10.55
+              ],
+              [
+                21.26,
+                138.04,
+                9.17
+              ],
+              [
+                21.74,
+                126.35,
+                8.63
+              ],
+              [
+                22.24,
+                117.53,
+                8.27
+              ],
+              [
+                22.73,
+                111.48,
+                7.9
+              ],
+              [
+                23.18,
+                106.61,
+                7.43
+              ],
+              [
+                23.68,
+                101.38,
+                6.77
+              ],
+              [
+                24.19,
+                95.62,
+                6.12
+              ],
+              [
+                24.65,
+                91.02,
+                5.71
+              ],
+              [
+                25.17,
+                87.16,
+                5.39
+              ],
+              [
+                25.64,
+                84.66,
+                5.13
+              ],
+              [
+                26.11,
+                82.74,
+                4.89
+              ],
+              [
+                26.64,
+                81.34,
+                4.81
+              ],
+              [
+                27.12,
+                80.83,
+                4.98
+              ],
+              [
+                27.6,
+                80.62,
+                5.2
+              ],
+              [
+                28.08,
+                80.09,
+                5.37
+              ],
+              [
+                28.57,
+                78.93,
+                5.52
+              ],
+              [
+                29.06,
+                77.25,
+                5.7
+              ],
+              [
+                29.61,
+                75.2,
+                5.87
+              ],
+              [
+                30.54,
+                72.01,
+                6.09
+              ],
+              [
+                31.54,
+                69.29,
+                6.82
+              ],
+              [
+                32.49,
+                66.83,
+                8.03
+              ],
+              [
+                33.34,
+                64.68,
+                8.27
+              ],
+              [
+                34.44,
+                62.66,
+                6.43
+              ],
+              [
+                35.45,
+                61.85,
+                5.54
+              ],
+              [
+                36.4,
+                61.79,
+                5.78
+              ],
+              [
+                37.38,
+                61.94,
+                6.52
+              ],
+              [
+                38.3,
+                61.37,
+                7.58
+              ],
+              [
+                39.32,
+                60.09,
+                8.34
+              ],
+              [
+                40.27,
+                58.99,
+                7.84
+              ],
+              [
+                41.24,
+                57.73,
+                7.11
+              ],
+              [
+                42.23,
+                56.45,
+                6.87
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "K2832008",
+            "N2": 20260831,
+            "alteration_flag": " ",
+            "transmission_identification": "K025"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "65-TB-159(G,X)0-NN-1,PR,KE,,MSC",
+                "code_unit": [
+                  {
+                    "unit": "65-TB-159(G,X)0-NN-1,PR,KE,,MSC",
+                    "field": {
+                      "reaction": "65-TB-159(G,X)0-NN-1",
+                      "target": "65-TB-159",
+                      "projectile": "G",
+                      "process": "X",
+                      "product": "0-NN-1",
+                      "quantity": "PR,KE",
+                      "data_type": null,
+                      "general_quantity_modifier": "MSC",
+                      "quantity_236": "PR,KE"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                "average energies of photoneutrons"
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Total uncertainty"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "I.Gheorghe+",
+                "reference": {
+                  "code": "J,PR/C,113,044620,2026",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "113",
+                      "part": null,
+                      "issue": null,
+                      "page": "044620"
+                    },
+                    "date": 2026
+                  }
+                }
+              },
+              "free_text": [
+                " Fig. 3 and",
+                " Supplemental Material"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "PART-OUT"
+            ],
+            "unit": [
+              "NO-DIM"
+            ],
+            "value": [
+              1.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 83,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MEV"
+            ],
+            "value": [
+              [
+                8.25,
+                0.14,
+                0.16
+              ],
+              [
+                8.37,
+                0.24,
+                0.11
+              ],
+              [
+                8.52,
+                0.35,
+                0.14
+              ],
+              [
+                8.76,
+                0.44,
+                0.18
+              ],
+              [
+                8.81,
+                0.45,
+                0.15
+              ],
+              [
+                9.01,
+                0.52,
+                0.18
+              ],
+              [
+                9.27,
+                0.64,
+                0.19
+              ],
+              [
+                9.37,
+                0.7,
+                0.16
+              ],
+              [
+                9.5,
+                0.77,
+                0.15
+              ],
+              [
+                9.76,
+                0.85,
+                0.15
+              ],
+              [
+                10.02,
+                0.91,
+                0.14
+              ],
+              [
+                10.26,
+                0.97,
+                0.15
+              ],
+              [
+                10.5,
+                1.02,
+                0.14
+              ],
+              [
+                10.78,
+                1.07,
+                0.15
+              ],
+              [
+                11.02,
+                1.1,
+                0.14
+              ],
+              [
+                11.27,
+                1.14,
+                0.14
+              ],
+              [
+                11.53,
+                1.18,
+                0.13
+              ],
+              [
+                11.76,
+                1.2,
+                0.14
+              ],
+              [
+                12.01,
+                1.22,
+                0.14
+              ],
+              [
+                12.28,
+                1.25,
+                0.14
+              ],
+              [
+                12.51,
+                1.29,
+                0.14
+              ],
+              [
+                12.77,
+                1.34,
+                0.14
+              ],
+              [
+                13.01,
+                1.4,
+                0.13
+              ],
+              [
+                13.25,
+                1.43,
+                0.14
+              ],
+              [
+                13.53,
+                1.47,
+                0.13
+              ],
+              [
+                13.77,
+                1.51,
+                0.14
+              ],
+              [
+                13.89,
+                1.53,
+                0.18
+              ],
+              [
+                14.01,
+                1.56,
+                0.14
+              ],
+              [
+                14.26,
+                1.63,
+                0.15
+              ],
+              [
+                14.37,
+                1.65,
+                0.18
+              ],
+              [
+                14.51,
+                1.67,
+                0.14
+              ],
+              [
+                14.6,
+                1.68,
+                0.18
+              ],
+              [
+                14.78,
+                1.7,
+                0.18
+              ],
+              [
+                14.87,
+                1.71,
+                0.2
+              ],
+              [
+                14.92,
+                1.72,
+                0.18
+              ],
+              [
+                15.1,
+                1.76,
+                0.17
+              ],
+              [
+                15.37,
+                1.85,
+                0.15
+              ],
+              [
+                15.6,
+                1.95,
+                0.13
+              ],
+              [
+                15.83,
+                2.04,
+                0.13
+              ],
+              [
+                16.07,
+                2.12,
+                0.14
+              ],
+              [
+                16.35,
+                2.22,
+                0.15
+              ],
+              [
+                16.59,
+                2.32,
+                0.16
+              ],
+              [
+                16.83,
+                2.43,
+                0.17
+              ],
+              [
+                17.07,
+                2.56,
+                0.18
+              ],
+              [
+                17.31,
+                2.69,
+                0.19
+              ],
+              [
+                17.8,
+                2.91,
+                0.16
+              ],
+              [
+                18.3,
+                3.1,
+                0.11
+              ],
+              [
+                18.8,
+                3.24,
+                0.11
+              ],
+              [
+                19.26,
+                3.46,
+                0.17
+              ],
+              [
+                19.78,
+                3.87,
+                0.28
+              ],
+              [
+                20.25,
+                4.12,
+                0.38
+              ],
+              [
+                20.72,
+                4.25,
+                0.47
+              ],
+              [
+                21.26,
+                4.5,
+                0.57
+              ],
+              [
+                21.74,
+                4.65,
+                0.65
+              ],
+              [
+                22.24,
+                4.53,
+                0.69
+              ],
+              [
+                22.73,
+                4.19,
+                0.67
+              ],
+              [
+                23.18,
+                3.75,
+                0.61
+              ],
+              [
+                23.68,
+                3.29,
+                0.49
+              ],
+              [
+                24.19,
+                3.01,
+                0.35
+              ],
+              [
+                24.65,
+                2.91,
+                0.27
+              ],
+              [
+                25.17,
+                2.9,
+                0.24
+              ],
+              [
+                25.64,
+                2.93,
+                0.23
+              ],
+              [
+                26.11,
+                2.95,
+                0.23
+              ],
+              [
+                26.64,
+                2.89,
+                0.25
+              ],
+              [
+                27.12,
+                2.81,
+                0.3
+              ],
+              [
+                27.6,
+                2.74,
+                0.36
+              ],
+              [
+                28.08,
+                2.7,
+                0.42
+              ],
+              [
+                28.57,
+                2.73,
+                0.48
+              ],
+              [
+                29.06,
+                2.81,
+                0.54
+              ],
+              [
+                29.61,
+                2.93,
+                0.64
+              ],
+              [
+                30.54,
+                3.01,
+                0.78
+              ],
+              [
+                31.54,
+                2.94,
+                0.76
+              ],
+              [
+                32.49,
+                2.98,
+                0.65
+              ],
+              [
+                33.34,
+                3.12,
+                0.64
+              ],
+              [
+                34.44,
+                3.41,
+                0.84
+              ],
+              [
+                35.45,
+                3.51,
+                0.98
+              ],
+              [
+                36.4,
+                3.31,
+                0.97
+              ],
+              [
+                37.38,
+                2.95,
+                0.88
+              ],
+              [
+                38.3,
+                2.61,
+                0.8
+              ],
+              [
+                39.32,
+                2.31,
+                0.74
+              ],
+              [
+                40.27,
+                2.25,
+                0.68
+              ],
+              [
+                41.24,
+                2.33,
+                0.62
+              ],
+              [
+                42.23,
+                2.38,
+                0.59
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "K2832009",
+            "N2": 20260831,
+            "alteration_flag": " ",
+            "transmission_identification": "K025"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "65-TB-159(G,X)0-NN-1,PR,KE,,MSC",
+                "code_unit": [
+                  {
+                    "unit": "65-TB-159(G,X)0-NN-1,PR,KE,,MSC",
+                    "field": {
+                      "reaction": "65-TB-159(G,X)0-NN-1",
+                      "target": "65-TB-159",
+                      "projectile": "G",
+                      "process": "X",
+                      "product": "0-NN-1",
+                      "quantity": "PR,KE",
+                      "data_type": null,
+                      "general_quantity_modifier": "MSC",
+                      "quantity_236": "PR,KE"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                "average energies of photoneutrons"
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Total uncertainty"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "I.Gheorghe+",
+                "reference": {
+                  "code": "J,PR/C,113,044620,2026",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "113",
+                      "part": null,
+                      "issue": null,
+                      "page": "044620"
+                    },
+                    "date": 2026
+                  }
+                }
+              },
+              "free_text": [
+                " Fig. 3 and",
+                " Supplemental Material"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "PART-OUT"
+            ],
+            "unit": [
+              "NO-DIM"
+            ],
+            "value": [
+              2.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 49,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MEV"
+            ],
+            "value": [
+              [
+                14.92,
+                0.04,
+                0.07
+              ],
+              [
+                15.1,
+                0.1,
+                0.11
+              ],
+              [
+                15.37,
+                0.26,
+                0.15
+              ],
+              [
+                15.6,
+                0.41,
+                0.16
+              ],
+              [
+                15.83,
+                0.54,
+                0.15
+              ],
+              [
+                16.07,
+                0.63,
+                0.15
+              ],
+              [
+                16.35,
+                0.73,
+                0.14
+              ],
+              [
+                16.59,
+                0.79,
+                0.13
+              ],
+              [
+                16.83,
+                0.85,
+                0.13
+              ],
+              [
+                17.07,
+                0.92,
+                0.13
+              ],
+              [
+                17.31,
+                0.98,
+                0.14
+              ],
+              [
+                17.8,
+                1.04,
+                0.14
+              ],
+              [
+                18.3,
+                1.13,
+                0.14
+              ],
+              [
+                18.8,
+                1.23,
+                0.13
+              ],
+              [
+                19.26,
+                1.28,
+                0.13
+              ],
+              [
+                19.78,
+                1.31,
+                0.13
+              ],
+              [
+                20.25,
+                1.35,
+                0.14
+              ],
+              [
+                20.72,
+                1.4,
+                0.14
+              ],
+              [
+                21.26,
+                1.42,
+                0.15
+              ],
+              [
+                21.74,
+                1.41,
+                0.15
+              ],
+              [
+                22.24,
+                1.42,
+                0.15
+              ],
+              [
+                22.73,
+                1.47,
+                0.16
+              ],
+              [
+                23.18,
+                1.54,
+                0.16
+              ],
+              [
+                23.68,
+                1.59,
+                0.16
+              ],
+              [
+                24.19,
+                1.62,
+                0.15
+              ],
+              [
+                24.65,
+                1.67,
+                0.15
+              ],
+              [
+                25.17,
+                1.73,
+                0.15
+              ],
+              [
+                25.64,
+                1.79,
+                0.15
+              ],
+              [
+                26.11,
+                1.84,
+                0.15
+              ],
+              [
+                26.64,
+                1.89,
+                0.15
+              ],
+              [
+                27.12,
+                1.94,
+                0.15
+              ],
+              [
+                27.6,
+                1.98,
+                0.14
+              ],
+              [
+                28.08,
+                2.0,
+                0.12
+              ],
+              [
+                28.57,
+                2.01,
+                0.1
+              ],
+              [
+                29.06,
+                2.0,
+                0.1
+              ],
+              [
+                29.61,
+                1.95,
+                0.13
+              ],
+              [
+                30.54,
+                1.82,
+                0.2
+              ],
+              [
+                31.54,
+                1.66,
+                0.21
+              ],
+              [
+                32.49,
+                1.67,
+                0.22
+              ],
+              [
+                33.34,
+                1.7,
+                0.24
+              ],
+              [
+                34.44,
+                1.6,
+                0.28
+              ],
+              [
+                35.45,
+                1.59,
+                0.29
+              ],
+              [
+                36.4,
+                1.75,
+                0.33
+              ],
+              [
+                37.38,
+                2.06,
+                0.41
+              ],
+              [
+                38.3,
+                2.49,
+                0.54
+              ],
+              [
+                39.32,
+                2.92,
+                0.68
+              ],
+              [
+                40.27,
+                2.98,
+                0.74
+              ],
+              [
+                41.24,
+                2.78,
+                0.71
+              ],
+              [
+                42.23,
+                2.61,
+                0.67
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "K2832010",
+            "N2": 20260831,
+            "alteration_flag": " ",
+            "transmission_identification": "K025"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "65-TB-159(G,X)0-NN-1,PR,KE,,MSC",
+                "code_unit": [
+                  {
+                    "unit": "65-TB-159(G,X)0-NN-1,PR,KE,,MSC",
+                    "field": {
+                      "reaction": "65-TB-159(G,X)0-NN-1",
+                      "target": "65-TB-159",
+                      "projectile": "G",
+                      "process": "X",
+                      "product": "0-NN-1",
+                      "quantity": "PR,KE",
+                      "data_type": null,
+                      "general_quantity_modifier": "MSC",
+                      "quantity_236": "PR,KE"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                "average energies of photoneutrons"
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Total uncertainty"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "I.Gheorghe+",
+                "reference": {
+                  "code": "J,PR/C,113,044620,2026",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "113",
+                      "part": null,
+                      "issue": null,
+                      "page": "044620"
+                    },
+                    "date": 2026
+                  }
+                }
+              },
+              "free_text": [
+                " Fig. 3 and",
+                " Supplemental Material"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "PART-OUT"
+            ],
+            "unit": [
+              "NO-DIM"
+            ],
+            "value": [
+              3.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 26,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MEV"
+            ],
+            "value": [
+              [
+                23.68,
+                0.06,
+                0.08
+              ],
+              [
+                24.19,
+                0.18,
+                0.17
+              ],
+              [
+                24.65,
+                0.35,
+                0.23
+              ],
+              [
+                25.17,
+                0.58,
+                0.24
+              ],
+              [
+                25.64,
+                0.77,
+                0.2
+              ],
+              [
+                26.11,
+                0.91,
+                0.14
+              ],
+              [
+                26.64,
+                0.98,
+                0.14
+              ],
+              [
+                27.12,
+                1.02,
+                0.17
+              ],
+              [
+                27.6,
+                1.1,
+                0.19
+              ],
+              [
+                28.08,
+                1.2,
+                0.19
+              ],
+              [
+                28.57,
+                1.31,
+                0.18
+              ],
+              [
+                29.06,
+                1.42,
+                0.17
+              ],
+              [
+                29.61,
+                1.53,
+                0.17
+              ],
+              [
+                30.54,
+                1.66,
+                0.18
+              ],
+              [
+                31.54,
+                1.74,
+                0.18
+              ],
+              [
+                32.49,
+                1.71,
+                0.19
+              ],
+              [
+                33.34,
+                1.75,
+                0.18
+              ],
+              [
+                34.44,
+                1.91,
+                0.15
+              ],
+              [
+                35.45,
+                2.0,
+                0.15
+              ],
+              [
+                36.4,
+                1.97,
+                0.19
+              ],
+              [
+                37.38,
+                1.83,
+                0.25
+              ],
+              [
+                38.3,
+                1.59,
+                0.34
+              ],
+              [
+                39.32,
+                1.33,
+                0.42
+              ],
+              [
+                40.27,
+                1.18,
+                0.45
+              ],
+              [
+                41.24,
+                1.12,
+                0.5
+              ],
+              [
+                42.23,
+                1.09,
+                0.59
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "K2832011",
+            "N2": 20260831,
+            "alteration_flag": " ",
+            "transmission_identification": "K025"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "65-TB-159(G,X)0-NN-1,PR,KE,,MSC",
+                "code_unit": [
+                  {
+                    "unit": "65-TB-159(G,X)0-NN-1,PR,KE,,MSC",
+                    "field": {
+                      "reaction": "65-TB-159(G,X)0-NN-1",
+                      "target": "65-TB-159",
+                      "projectile": "G",
+                      "process": "X",
+                      "product": "0-NN-1",
+                      "quantity": "PR,KE",
+                      "data_type": null,
+                      "general_quantity_modifier": "MSC",
+                      "quantity_236": "PR,KE"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                "average energies of photoneutrons"
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Total uncertainty"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "I.Gheorghe+",
+                "reference": {
+                  "code": "J,PR/C,113,044620,2026",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "113",
+                      "part": null,
+                      "issue": null,
+                      "page": "044620"
+                    },
+                    "date": 2026
+                  }
+                }
+              },
+              "free_text": [
+                " Fig. 3 and",
+                " Supplemental Material"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "PART-OUT"
+            ],
+            "unit": [
+              "NO-DIM"
+            ],
+            "value": [
+              4.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 12,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MEV"
+            ],
+            "value": [
+              [
+                31.54,
+                0.28,
+                0.14
+              ],
+              [
+                32.49,
+                0.4,
+                0.15
+              ],
+              [
+                33.34,
+                0.45,
+                0.19
+              ],
+              [
+                34.44,
+                0.74,
+                0.27
+              ],
+              [
+                35.45,
+                1.09,
+                0.27
+              ],
+              [
+                36.4,
+                1.19,
+                0.22
+              ],
+              [
+                37.38,
+                1.26,
+                0.19
+              ],
+              [
+                38.3,
+                1.52,
+                0.2
+              ],
+              [
+                39.32,
+                1.83,
+                0.21
+              ],
+              [
+                40.27,
+                1.94,
+                0.2
+              ],
+              [
+                41.24,
+                1.94,
+                0.18
+              ],
+              [
+                42.23,
+                1.92,
+                0.18
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 11,
+        "N2": 0
+      }
+    }
+  ]
+}

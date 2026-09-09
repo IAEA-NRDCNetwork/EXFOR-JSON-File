@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:16:15+0000",
+  "time_stamp": "2026-09-09T12:03:41+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "K2315",
-        "N2": 20120518,
+        "N2": 20260831,
         "alteration_flag": " ",
-        "transmission_identification": "K011"
+        "transmission_identification": "K025"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "K2315001",
-            "N2": 20120518,
+            "N2": 20260831,
             "alteration_flag": " ",
-            "transmission_identification": "K011"
+            "transmission_identification": "K025"
           },
           "BIB": {
-            "N1": 14,
+            "N1": 12,
             "N2": 0
           },
           "TITLE": [
@@ -58,10 +58,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,JPJ,34,(2),315,197302",
+                "code": "J,JPJ,34,315,1973",
                 "code_unit": [
                   {
-                    "unit": "J,JPJ,34,(2),315,197302",
+                    "unit": "J,JPJ,34,315,1973",
                     "doi": "10.1143/JPSJ.34.315",
                     "field": {
                       "reference_type": "J",
@@ -70,10 +70,10 @@
                         "number": null,
                         "volume": "34",
                         "part": null,
-                        "issue": "2",
+                        "issue": null,
                         "page": "315"
                       },
-                      "date": 197302
+                      "date": 1973
                     }
                   }
                 ],
@@ -95,15 +95,6 @@
               ]
             }
           ],
-          "EN-SEC": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "ANG is polar angle (lab.) between beam and neutron"
-              ]
-            }
-          ],
           "INC-SOURCE": [
             {
               "pointer": "",
@@ -115,15 +106,6 @@
               },
               "free_text": [
                 ""
-              ]
-            }
-          ],
-          "INC-SPECT": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "EN: 0.25 MeV increments"
               ]
             }
           ],
@@ -161,7 +143,7 @@
                 "institute": "2JPNOSP"
               },
               "free_text": [
-                " electron"
+                ""
               ]
             }
           ],
@@ -208,6 +190,18 @@
               "free_text": [
                 " M.Odsuren"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260713,
+                "history": "A"
+              },
+              "free_text": [
+                " MA: deleted COMMON/ANG and EN-SEC in 001;",
+                "            modified REFERENCE, FACILITY in 001,",
+                "            STATUS in 002-003."
+              ]
             }
           ],
           "ENDBIB": {
@@ -215,23 +209,19 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 2,
+            "N1": 1,
             "N2": 0,
             "pointer": [
-              "",
               ""
             ],
             "heading": [
-              "EN-RSL",
-              "ANG"
+              "EN-RSL"
             ],
             "unit": [
-              "PER-CENT",
-              "ADEG"
+              "PER-CENT"
             ],
             "value": [
-              1.0,
-              90.0
+              1.0
             ]
           },
           "ENDCOMMON": {
@@ -246,9 +236,9 @@
         {
           "SUBENT": {
             "N1": "K2315002",
-            "N2": 20120518,
+            "N2": 20260831,
             "alteration_flag": " ",
-            "transmission_identification": "K011"
+            "transmission_identification": "K025"
           },
           "BIB": {
             "N1": 3,
@@ -304,12 +294,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "K.Fukuda+",
+                "reference": {
+                  "code": "J,JPJ,34,315,1973",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JPJ",
+                      "number": null,
+                      "volume": "34",
+                      "part": null,
+                      "issue": null,
+                      "page": "315"
+                    },
+                    "date": 1973
+                  }
+                }
               },
               "free_text": [
-                " Fig.2 of Journal of physics society of Japan,",
-                "        34, p.315, 1973"
+                " Fig. 2"
               ]
             }
           ],
@@ -454,9 +457,9 @@
         {
           "SUBENT": {
             "N1": "K2315003",
-            "N2": 20120518,
+            "N2": 20260831,
             "alteration_flag": " ",
-            "transmission_identification": "K011"
+            "transmission_identification": "K025"
           },
           "BIB": {
             "N1": 3,
@@ -509,12 +512,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "K.Fukuda+",
+                "reference": {
+                  "code": "J,JPJ,34,315,1973",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JPJ",
+                      "number": null,
+                      "volume": "34",
+                      "part": null,
+                      "issue": null,
+                      "page": "315"
+                    },
+                    "date": 1973
+                  }
+                }
               },
               "free_text": [
-                " In the text of Journal of physics society of",
-                "        Japan, 34, p.315, 1973"
+                " Text"
               ]
             }
           ],
